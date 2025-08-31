@@ -7,10 +7,11 @@ In this you can play drums with the keyboard.
 The project Structure:
 
 /Proj
-   /sounds
-     -contains diff sounds
-   -index.html
-   -script.js
-   -style.css
+<br>
+   /sounds <br>
+     -contains diff sounds <br>
+   -index.html <br>
+   -script.js  <br>
+   -style.css <br>
 
 Made by Akhi.
