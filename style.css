@@ -1,0 +1,105 @@
+html {
+  font-size: 10px;
+  background: url('./background_final.png')  no-repeat center top;
+  background-size: cover;
+  background-size: cover; 
+  background-position: center 20%;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys{
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  place-items: center;
+  /* - In CSS Grid, 1fr means a column will take up the
+       remaining space in the grid.
+     - If we write 1fr 1fr ... 1fr; 8 times, this will
+       divide the grid into 8 columns, each taking up an
+       equal amount of the space.
+     - repeat(8, 1fr); is a shortcut for repeating "1fr"
+       8 times (instead of typing out "1fr" 8 times).
+       repeat(...) is a special property that works with
+       display: grid; */
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 0rem; 
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.656);
+  text-shadow: 0 0 .5rem black;
+}
+
+@media (max-width: 2000px) {
+  .products-grid {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+@media (max-width: 1600px) {
+  .keys {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 1300px) {
+  .keys {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+  .keys{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .keys{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .keys{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .keys{
+    grid-template-columns: 1fr;
+  }
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
