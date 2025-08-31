@@ -9,7 +9,7 @@ The project Structure:
 /Proj
 <br>
    /sounds <br>
-     -contains diff sounds <br>
+           -contains diff sounds <br>
    -index.html <br>
    -script.js  <br>
    -style.css <br>
