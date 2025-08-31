@@ -2,7 +2,7 @@
 
 This is a mini project made for understanding more about CSS and JS attributes.
 
-In this you can play drums with the keyboard. 
+In this you can play drums with the keyboard.Not made for Mobile devices. 
 
 The project Structure:
 
