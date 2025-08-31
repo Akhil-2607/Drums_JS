@@ -12,4 +12,6 @@ The project Structure:
    script.js   -> main logic (this file) <br>
    style.css   -> styles and key animations <br>
 
+CHeckout the Wesite - https://drums-done-js.netlify.app/
+
 Made by Akhi.
