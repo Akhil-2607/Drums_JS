@@ -6,12 +6,10 @@ In this you can play drums with the keyboard.
 
 The project Structure:
 
-/Proj
-<br>
-   /sounds <br>
-           -contains diff sounds <br>
-   -index.html <br>
-   -script.js  <br>
-   -style.css <br>
+/Proj <br>
+   /sounds     -> contains different sound files
+   index.html  -> structure of the drum kit
+   script.js   -> main logic (this file)
+   style.css   -> styles and key animations
 
 Made by Akhi.
